@@ -88,9 +88,9 @@ class DashboardAnalyzer:
             return pd.concat(data, ignore_index=True)
 
 # Usage
-input_path = 'your_folder_with_tdwbx_files'
-output_path = 'where_to_save_csv_files'
-analyzer = DashboardAnalyzer(input_path, output_path, create_dir=False)
-df = analyzer.analyze(return_concat=True)
-if df is not None:
-    print(df)
+# input_path = 'your_folder_with_tdwbx_files'
+# output_path = 'where_to_save_csv_files'
+# analyzer = DashboardAnalyzer(input_path, output_path, create_dir=False)
+# df = analyzer.analyze(return_concat=True)
+# if df is not None:
+#     print(df)
